@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 # This is a simple IRC bot that just rot13 encrypts public messages.
 # It responds to "rot13 <text to encrypt>".
-# This script also need the Princeton University WordNet to function
+# This script also needs the Princeton University WordNet to function
 # In IRC "define: term"
 use warnings;
 use strict;
