@@ -7,7 +7,7 @@ use warnings;
 use strict;
 use POE;
 use POE::Component::IRC;
-sub CHANNEL () { "#icqchat" }
+sub CHANNEL () { "#main" }
 
 # Create the component that will represent an IRC network.
 my ($irc) = POE::Component::IRC->spawn();
@@ -32,7 +32,7 @@ sub bot_start {
       Nick     => $nick,
       Username => 'rotchef',
       Ircname  => 'IRC Multifunction Robot',
-      Server   => 'irc.icqchat.net',
+      Server   => 'magical.ddns.net',
       Port     => '6667',
     }
   );
